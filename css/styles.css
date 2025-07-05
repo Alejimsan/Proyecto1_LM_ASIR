@@ -12,6 +12,9 @@
 
 }
 
+
+
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
@@ -40,12 +43,15 @@ body {
 }
 
 .logo {
-    background-color: var(--color-secundario);
-    color: white;
+    background-color: white;
     padding: 0.5rem 1rem;
     border-radius: 25px;
-    font-weight: bold;
     text-decoration: none;
+}
+
+.logo img {
+    width: 50px;
+    padding: 3px 3px 0 0;
 }
 
 /* Menú de navegación */

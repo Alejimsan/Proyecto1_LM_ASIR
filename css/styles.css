@@ -13,7 +13,9 @@
 
 }
 
-
+html {
+  scroll-padding-top: 50px; /* Necesario al tener el menú fijo, para que no corte la sección al pulsar en el menú */
+}
 
 
 @font-face {

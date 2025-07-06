@@ -9,8 +9,11 @@
     --color-primario: #2C3E50;
     --color-secundario: #FD853A;
     --color-terciario: #f8f9fa;
+    --color-cuaternario: #34495e;
 
 }
+
+
 
 
 @font-face {
@@ -171,7 +174,7 @@ body {
 }
 
 .curriculum-item:hover {
-    transform: translateY(-5px);  /* Elevación ligera */
+    transform: translateY(-5px);  
 }
 
 .curriculum-icon {
@@ -187,3 +190,62 @@ body {
     color: white;
 }
 
+
+/* ===== PROYECTOS SECTION  ===== */
+
+.proyectos {
+    padding: 4rem 0;
+    background-color: var(--color-primario);
+    color: white;
+}
+
+.proyectos h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.proyectos h2 span {
+    color: var(--color-secundario);
+}
+
+.proyectos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.proyecto-item {
+    background-color: var(--color-cuaternario);
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.proyecto-item:hover {
+    transform: translateY(-5px);
+}
+
+.proyecto-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.proyecto-item p {
+    margin-bottom: 1.5rem;
+    opacity: 0.9;
+}
+
+.proyecto-logo {
+    width: 180px;
+    height: 140px;
+    background-color: var(--color-secundario);
+    margin: 0 auto 1rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}

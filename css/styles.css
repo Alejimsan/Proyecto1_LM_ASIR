@@ -120,7 +120,6 @@ body {
 
 .hero-content p {
     font-size: 1.1rem; 
-    margin-bottom: 2rem;
     line-height: 1.8;
     opacity: 0.9;
 }
@@ -136,6 +135,7 @@ body {
     text-decoration: none;
     display: inline-block;
     transition: background-color 0.3s ease;
+    margin-top: 2rem;
 }
 
 .cta-button:hover {
@@ -393,7 +393,47 @@ body {
 }
 
 
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
 
+  .hero-content, .sobre-mi-content, .footer, .footer-top{
+    text-align: center;
+}
+
+  .hero-image {
+    margin-top: 2rem;
+}
+
+  .footer-top, .footer-content, .profile-name {
+    display: block;
+}
+
+.profile-name img{
+    display: block;
+    margin: 0.6rem auto;
+}
+
+
+.social-icons a {
+  margin: 0.6rem;
+}
+
+}
+
+@media (max-width: 1040px) {
+
+    .proyectos-grid{
+        display: block;
+    }
+
+    .proyecto-item{
+        margin: 2rem 0;
+    }
+
+}
 
 
 

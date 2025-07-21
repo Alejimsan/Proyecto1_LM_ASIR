@@ -506,29 +506,33 @@ body {
   .hero-container {
     flex-direction: column;
     text-align: center;
-  }
+    }
 
   .hero-content, .sobre-mi-content, .footer, .footer-top{
     text-align: center;
-}
+    }
 
   .hero-image {
     margin-top: 2rem;
-}
+    }
 
   .footer-top, .footer-content, .profile-name {
     display: block;
-}
-
-.profile-name img{
-    display: block;
-    margin: 0.6rem auto;
-}
+    }
+    .footer{
+        padding: 1rem 0;
+    }
 
 
-.social-icons a {
-  margin: 0.6rem;
-}
+    .profile-name img{
+        display: block;
+        margin: 0.6rem auto;
+    }
+
+
+    .social-icons a {
+    margin: 0.6rem;
+    }
 
 }
 

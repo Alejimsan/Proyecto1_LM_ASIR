@@ -426,7 +426,7 @@ body {
 @media (max-width: 1040px) {
 
     .proyectos-grid{
-        display: block;
+        grid-template-columns: 1fr;
     }
 
     .proyecto-item{

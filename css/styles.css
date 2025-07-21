@@ -251,3 +251,38 @@ body {
     color: white;
     font-weight: bold;
 }
+
+/* ===== SOBRE MI SECTION  ===== */
+.sobre-mi {
+    padding: 4rem 0;
+    background-color: var(--color-terciario);
+}
+
+.sobre-mi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+    align-items: center;
+}
+
+.nube-palabras {
+    width: 100%;
+    height: 300px;
+}
+
+.sobre-mi-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--color-primario);
+}
+
+.sobre-mi-content h2 span {
+    color: var(--color-secundario);
+}
+
+.sobre-mi-content p {
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+

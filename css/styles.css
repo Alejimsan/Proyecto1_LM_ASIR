@@ -10,6 +10,7 @@
     --color-secundario: #FD853A;
     --color-terciario: #f8f9fa;
     --color-cuaternario: #34495e;
+    --color-quintario: #ccc;
 
 }
 
@@ -30,6 +31,12 @@ body {
     color: var(--color-primario);
     background-color: var(--color-terciario);
     font-weight: 500;
+}
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 2rem;
 }
 
 /* ===== HEADER Y NAVEGACIÓN ===== */
@@ -65,6 +72,7 @@ body {
 }
 
 /* Menú de navegación */
+
 .nav-menu {
     display: flex;   
     list-style: none; 
@@ -82,6 +90,7 @@ body {
 }
 
 /* ===== HERO SECTION - SECCIÓN PRINCIPAL ===== */
+
 .hero {
     margin-top: 80px;          /* Margen superior para compensar el header fijo */
     padding: 4rem 0; 
@@ -144,12 +153,6 @@ body {
 .curriculum {
     padding: 4rem 0; 
     background-color: white;
-}
-
-.container {
-    max-width: 1200px; 
-    margin: 0 auto; 
-    padding: 0 2rem;
 }
 
 .curriculum h2 {
@@ -285,4 +288,114 @@ body {
     line-height: 1.8;
     margin-bottom: 1rem;
 }
+
+/* ===== FOOTER ===== */
+
+.footer {
+    background-color: var(--color-primario);
+    color: white;
+    padding: 2rem;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-top h2 {
+    font-size: 2.5rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+.contact-button {
+    background-color: var(--color-secundario);
+    color: white;
+    padding: 0.6rem 1.4rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.contact-button:hover {
+    transform: translateY(-5px);
+}
+
+.footer hr {
+    margin: 1.5rem 0;
+    border: none;
+    height: 1px;
+    background-color: var(--color-cuaternario);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.footer-profile {
+    flex: 1;
+    min-width: 250px;
+}
+
+.profile-name {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.profile-name img{
+    background-color: var(--color-secundario);
+    border-radius: 2rem;
+    width: 25px;
+    height: 25px;
+}
+
+.social-icons a {
+    margin: 0.8rem 0.8rem 0 0;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 22px;
+    height: 22px;
+    filter: brightness(0) invert(1);
+    transition: opacity 0.3s;
+}
+
+.social-icons img:hover {
+    opacity: 0.7;
+}
+
+.footer-profile p {
+    margin-top: 0.5rem;
+    color: var(--color-quintario);
+}
+
+.footer-profile p {
+    margin-top: 0.5rem;
+    color: var(--color-quintario);
+}
+
+.footer-contact h4 {
+    color: var(--color-secundario);
+    margin-bottom: 0.5rem;
+}
+
+.footer-contact p {
+    margin: 0.2rem 0;
+}
+
+
+
+
+
+
+
 

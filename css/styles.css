@@ -22,6 +22,8 @@ html {
 @font-face {
     font-family: ABeeZee;
     src: url(../fonts/ABeeZee/ABeeZee-Regular.ttf);
+    font-family: Epilogue;
+    src: url(../fonts/Epilogue/Epilogue-VariableFont_wght.ttf);
 
 }
 
@@ -31,6 +33,10 @@ body {
     color: var(--color-primario);
     background-color: var(--color-terciario);
     font-weight: 500;
+}
+
+.nav-container ul{
+    font-family: 'Epilogue';
 }
 
 .container {
@@ -83,6 +89,8 @@ body {
     color: white; 
     text-decoration: none;
     transition: color 0.3s ease;
+    font-weight: 300;
+    font-size: 21px;
 }
 
 .nav-menu a:hover {
@@ -499,6 +507,10 @@ body {
         font-size: 16px;
     }
 
+    .nav-menu.menu-desplegado a {
+        font-size: 16px;
+    }
+
     .header{
         padding: 2rem 0;
 
@@ -547,6 +559,9 @@ body {
         text-align: center;
     }
 
+    .sobre-mi-content h2{
+        text-align: center;
+    }
 
     .profile-name img{
         display: block;

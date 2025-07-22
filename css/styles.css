@@ -485,8 +485,15 @@ body {
         font-size: 12px;
     }
 
-    .nav-menu.menu-desplegado{
+    .nav-menu.menu-desplegado {
         display: block;
+        padding: 1rem 0 0 0;
+        font-size: 16px;
+    }
+
+    .header{
+        padding: 2rem 0;
+
     }
      
 }

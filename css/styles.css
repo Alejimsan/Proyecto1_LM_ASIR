@@ -537,8 +537,48 @@ body {
     text-decoration: underline;
 }
 
+/* ===== HTML COOKIES ===== */
 
+#politica-privacidad {
+    padding: 4rem 0; 
+    text-align: left; 
+    background-color: var(--color-terciario); 
+    color: var(--color-primario); 
+    line-height: 1.8; 
+    margin-top: 80px; /* Margen superior para compensar el header fijo, como en .hero */
+}
 
+#politica-privacidad h2 {
+    color: var(--color-primario); 
+    text-align: center; 
+    margin-bottom: 3rem; 
+    font-size: 2.5rem; 
+    font-weight: 700;
+}
+
+#politica-privacidad h3 {
+    color: var(--color-secundario); 
+    margin-top: 2.5rem; 
+    margin-bottom: 1rem;
+    font-size: 1.6rem; 
+    font-weight: 600;
+}
+
+#politica-privacidad p {
+    margin-bottom: 1em; 
+    font-size: 1rem; 
+    color: var(--color-primario); 
+}
+
+#politica-privacidad a {
+    color: var(--color-secundario); 
+    text-decoration: underline; 
+    transition: color 0.3s ease;
+}
+
+#politica-privacidad a:hover {
+    color: var(--color-cuaternario); 
+}
 
 
 

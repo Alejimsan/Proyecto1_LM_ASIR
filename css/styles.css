@@ -363,7 +363,9 @@ body {
     color: var(--color-primario);
 }
 
-
+.body-blog .nav-menu li:nth-child(4) a {                /* Para marcar que estamos en la sección blog*/
+    color: var(--color-secundario);         
+}
 
 
 

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" href="./icons/favicon.ico">
+    <title>Proyecto1_LM_ASIR</title>
+</head>
+
+<body>
+    
+    <!-- ===== HEADER - BARRA DE NAVEGACIÓN ===== -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="#" class="logo"><img src="./images/AJ_Logo_resized.png" alt="Logo Portfolio Alejandro Jiménez"></a>
+            
+            <a href="#" id="enlace-menu" class="boton-menu">&#9776;</a>
+            <ul class="nav-menu" id="menu">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./#proyectos">Proyectos</a></li>
+                <li><a href="./#cv">Curriculum</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===== BLOG SECTION ===== -->
+
+        <div id="blog-content">
+            <div class="container">
+                <h2>Mi Blog</h2>
+
+                    <div class="blog-post">
+                        <h3>Título del Primer Post: Mi Primer Despliegue en Netlify</h3>
+                        <p class="post-date">Publicado el 22 de Julio de 2025</p>
+                        <img src="./images/Netlify.png" alt="Imagen del Post 1: Netlify Deploy">
+                        <p>Hoy quiero compartir mi experiencia desplegando mi portfolio en Netlify. Ha sido un proceso bastante sencillo y rápido. Utilicé Git para el control de versiones y conecté mi repositorio directamente con Netlify, lo que automatiza los despliegues con cada commit.</p>
+                        <p>Esta plataforma me ha permitido tener mi sitio online en cuestión de minutos para poder compartir con el profesor de la asignatura de Lenguaje de Marcas. ¡Totalmente recomendado para proyectos estáticos!</p>
+                        <p>Por poner un pero, lo haría con la carpeta de JavasCript, ya que al desplegarse el proyecto, Netlify no reconocía la ruta, y es que aunque VisualStudio si la reconocía, Netlify no, cuando me di cuenta del error y lo subsané, ya volvió a funciona todo sin problemas.</p>
+                    </div>
+
+                    <div class="blog-post">
+                        <h3>Título del Segundo Post: Entendiendo la Virtualización en ASIR</h3>
+                        <p class="post-date">Publicado el 15 de Julio de 2025</p>
+                        <img src="./images/Virtualizacion.png" alt="Imagen del Post 2: Virtualización">
+                        <p>La virtualización es un pilar fundamental en la administración de sistemas hoy en día. Permite ejecutar múltiples sistemas operativos en una única máquina física, optimizando recursos y facilitando la gestión. Conceptos como máquinas virtuales (VMs), hipervisores tipo 1 y tipo 2 son esenciales.</p>
+                        <p>En clase de ASIR hemos estado explorando herramientas como VirtualBox y VMware, que nos abren un mundo de posibilidades para probar configuraciones y entornos sin afectar el hardware real.</p>
+                    </div>
+            </div>        
+        </div>        
+            </section>
+    </main>
+    
+
+    <!-- ===== FOOTER - SECCIÓN DE CONTACTO ===== -->
+
+    <footer class="footer" id="contacto">
+        <div class="container">
+            <div class="footer-top">
+                <h2>Contacto</h2>
+                <a href="#contacto" class="contact-button">Contact me ↗</a>
+            </div>
+
+            <hr>
+
+            <div class="footer-content">
+                <div class="footer-profile">
+                    <div class="profile-name">
+                        <img src="./icons/profile_icon.svg" alt="profile">
+                        <strong>Alejandro Jiménez</strong>
+                    </div>
+
+                    <div class="social-icons">
+                        <a href="#contacto"><img src="./icons/instagram_icon.svg" alt="Instagram"></a>
+                        <a href="#contacto"><img src="./icons/whatsapp_icon.svg" alt="WhatsApp"></a>
+                        <a href="#contacto"><img src="./icons/linkedin_icon.svg" alt="LinkedIn"></a>
+                    </div>
+
+                    <p>Administrador de Sistemas informáticos y redes</p>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>+34 600000000</p>
+                    <p>chezmene@gmail.com</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <div class="cookie-popup" id="cookiePopup">
+        <p>Este sitio utiliza cookies para mejorar tu experiencia. <a href="#">Saber más</a></p>
+        <button id="acceptCookies">Aceptar </button>
+    </div>
+
+
+    <script src="./jss/js.js"></script>
+</body>
+</html>

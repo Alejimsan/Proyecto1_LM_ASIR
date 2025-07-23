@@ -95,6 +95,7 @@ body {
 
 .nav-menu a:hover {
     color: var(--color-secundario);
+    
 }
 
 /* ===== HERO SECTION - SECCIÓN PRINCIPAL ===== */
@@ -474,6 +475,21 @@ body {
     margin: 0.2rem 0;
 }
 
+.tlf a, .mail a{
+    color: white;
+    text-decoration: none;
+}
+
+.tlf a, .mail a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.tlf a:hover, .mail a:hover {
+    color: var(--color-secundario);
+   
+}
 
 /* ===== POPUP COOKIES ===== */
 
